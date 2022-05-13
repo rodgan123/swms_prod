@@ -1,0 +1,65 @@
+.mini-margin-left {
+    margin-left: 5px !important;
+}
+
+.card-padding {
+    padding: 30px !important;
+}
+
+.swal-text {
+    text-align: center;
+}
+
+.v-data-table>.v-data-table__wrapper>table>tbody>tr>td {
+    // font-weight: bold;
+    font-size: 15px;
+}
+
+// .text-center {
+//     center: center
+// }
+
+#printable {
+
+    background: blue
+}
+
+@media print {
+    // #header {
+    //     visibility: hidden;
+    // }
+
+    body * {
+        visibility: hidden;
+    }
+
+    @page {
+        margin: 0;
+    }
+
+    .section-to-print,
+    .section-to-print * {
+        visibility: visible;
+        background: blue
+    }
+
+    .section-to-print {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    // #wrapper {
+    //     padding-left: 0;
+    // }
+
+    // #sidebar {
+    //     transform: translateX(-100%);
+
+    // }
+
+    // .v-navigation-drawer {
+    //     transform: translateX(-100%);
+    //     visibility: hidden;
+    // }
+}
