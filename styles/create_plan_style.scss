@@ -97,10 +97,15 @@ td {
 
             th {
                 padding-left: 10px;
+                padding-right: 10px;
                 border: 1px solid;
             }
         }
     }
+}
+
+#checkItem {
+    width: 250px;
 }
 
 #formTitle {
